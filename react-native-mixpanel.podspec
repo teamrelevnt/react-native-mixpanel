@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.authors      = package['author']
   s.homepage     = package['homepage']
-  s.source       = { :git => "https://github.com/davodesign84/react-native-mixpanel.git" }
+  s.source       = { :git => "git@github.com:teamrelevnt/react-native-mixpanel.git" }
   s.source_files = 'RNMixpanel/*'
   s.platform     = :ios, "8.0"
   s.tvos.deployment_target = '10.0'
